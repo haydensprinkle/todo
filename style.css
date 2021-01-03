@@ -1,4 +1,20 @@
-.completed-task{
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  width: 75%;
+  margin: 0 auto;
+}
+.title {
+  background-color: blueviolet;
+  width: 100%;
+}
+.completed-task {
   opacity: 0.5;
   text-decoration: line-through;
+}
+.task-wrapper {
+  display: flex;
 }
