@@ -1,15 +1,28 @@
-.app {
+body {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app {
+  display: flex;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
-  width: 75%;
+  background-color: #70a0af;
+  width: 50%;
   margin: 0 auto;
+  padding-top: 10px;
+  border-radius: 15px;
 }
 .title {
-  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  background-color: #f4e8c1;
   width: 100%;
+  border-radius: 10px;
+  height: 4rem;
+  padding: 5px;
 }
 .completed-task {
   opacity: 0.5;
@@ -17,9 +30,18 @@
 }
 .task-wrapper {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  /* background-color: blue; */
 }
 .task-info {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+#checkButton{
+  display: flex;
+  align-self: flex-end;
+}
+
